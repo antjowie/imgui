@@ -14,4 +14,6 @@ add_library(imgui STATIC
     # examples/imgui_impl_glfw.cpp
 )
 
+add_library(ImGui::imgui ALIAS imgui)
+
 target_include_directories(imgui PUBLIC /)
